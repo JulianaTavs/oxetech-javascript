@@ -3,7 +3,6 @@ const produto = { nome: "Câmera", preco: 1200 };
 const resultado = protegerObjeto(produto, "congelado");
 
 console.log(resultado);
-// Resultado esperado: { extensivel: false, selado: false, congelado: true }
 
 function protegerObjeto(objeto, modoProtecao) {
     switch (modoProtecao) {
